@@ -10,8 +10,7 @@ header {
   max-width: 500px;
 }
 nav {
-  float:right;
-
+  float: right;
 }
 head:first-child {
   display: inline-block;
@@ -27,11 +26,39 @@ img {
   background-color: coral;
   width: 95%;
   margin: 10px;
-  max-width: 500px
+  max-width: 500px;
 }
 section.activity {
   width: 95%;
   padding: 0px 10px 5px 10px;
   margin: 10px;
   background-color: coral;
+  max-width: 500px;
+}
+section.project {
+  width: 95%;
+  padding: 0px 10px 5px 10px;
+  margin: 10px;
+  background-color: coral;
+  max-width: 500px;
+}
+h1 {
+  margin-left: 5px;
+}
+h2 {
+  margin-left: 15px;
+}
+footer img {
+  max-height: 25px;
+}
+#reddit-link {
+  float: left;
+  margin-left: 50%;
+}
+#instagram-link {
+  float: right;
+  margin-right: 50%;
+}
+footer {
+  text-align: center;
 }
