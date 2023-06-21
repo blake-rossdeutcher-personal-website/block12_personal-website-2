@@ -1,5 +1,5 @@
 body {
-  background-color:darkcyan;
+  background-color: darkcyan;
 }
 header {
   background-color: rosybrown;
@@ -7,9 +7,11 @@ header {
   display: inline-block;
   margin: 10px;
   margin-bottom: 0px;
+  max-width: 500px;
 }
 nav {
-  
+  float:right;
+
 }
 head:first-child {
   display: inline-block;
@@ -17,13 +19,15 @@ head:first-child {
 img {
   max-width: 100px;
   max-height: 100px;
+  float: right;
 }
 #song {
   align-self: right;
   text-align: center;
   background-color: coral;
   width: 95%;
-  margin: 10px
+  margin: 10px;
+  max-width: 500px
 }
 section.activity {
   width: 95%;
