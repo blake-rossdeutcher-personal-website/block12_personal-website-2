@@ -1,9 +1,33 @@
+body {
+  background-color:darkcyan;
+}
 header {
   background-color: rosybrown;
-  white-space: nowrap;
-  overflow: hidden;
+  width: 95%;
+  display: inline-block;
+  margin: 10px;
+  margin-bottom: 0px;
+}
+nav {
+  
+}
+head:first-child {
+  display: inline-block;
 }
 img {
   max-width: 100px;
   max-height: 100px;
+}
+#song {
+  align-self: right;
+  text-align: center;
+  background-color: coral;
+  width: 95%;
+  margin: 10px
+}
+section.activity {
+  width: 95%;
+  padding: 0px 10px 5px 10px;
+  margin: 10px;
+  background-color: coral;
 }
