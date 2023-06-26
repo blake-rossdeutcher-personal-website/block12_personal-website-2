@@ -16,15 +16,15 @@ header {
   justify-content: space-between;
 }
 h1 {
-  margin-left: 10px;
+  margin-left: 2%;
   text-decoration: underline;
 }
 nav {
-  margin: 10px;
+  margin: 2%;
 }
 nav a {
   border: gray outset;
-  padding: 2px;
+  padding: 1px;
 }
 nav a:hover {
   background-color: rebeccapurple;
@@ -37,7 +37,7 @@ nav a:focus {
 
 h2 {
   margin-left: 2%;
-  padding-left: 10px;
+  padding-left: 2%;
 }
 img {
   max-width: 100%;
@@ -53,12 +53,19 @@ img {
   margin: 2%;
 }
 /* About Page */
-section.activity {
+#activities-container {
   width: 96%;
-  padding: 0px 10px 5px 10px;
+  margin: 2%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  background-color: darkred;
+}
+section.activity {
+  width: 25%;
+  padding: 0% 2% 1% 2%;
   margin: 2%;
   background-color: coral;
-  max-width: 500px;
 }
 section.activity:hover {
   background-color: rebeccapurple;
@@ -67,7 +74,6 @@ section.activity:hover {
 /* Project Page */
 #project-container {
   width: 96%;
-  /* padding: 0px 10px 5px 10px; */
   margin: 2%;
   display: flex;
   flex-wrap: wrap;
@@ -76,14 +82,9 @@ section.activity:hover {
 }
 section.project {
   width: 25%;
-  padding: 0px 10px 5px 10px;
+  padding: 0% 2% 1% 2%;
   margin: 2%;
   background-color: coral;
-}
-@media (max-width: 1000px) {
-  section.project {
-    width: 100%;
-  }
 }
 section.project:hover {
   background-color: rebeccapurple;
@@ -92,6 +93,17 @@ section.project:hover {
 section.project:hover a {
   color: chocolate;
 }
+#skiing-pic {
+  float: left
+}
+@media (max-width: 1000px) {
+  section.project {
+    width: 100%;
+  }
+  section.activity {
+    width: 100%;
+  }
+}
 /* Contact Page */
 section.contact-form {
   width: 96%;
@@ -99,13 +111,13 @@ section.contact-form {
   background-color: coral;
 }
 table {
-  padding: 7px;
+  padding: 2%;
   margin: auto;
 }
 
 footer {
-  margin: 10px;
-  padding: 5px;
+  margin: 2%;
+  padding: 1%;
   text-align: center;
 }
 footer img {
