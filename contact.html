@@ -5,7 +5,7 @@
   </head>
   <body>
     <header>
-      <h1>Blake Rossdeutcher</h1>
+      <h1>Contact</h1>
       <nav>
         <a href="./index.html">Home</a>
         <a href="about.html">About</a>
@@ -14,15 +14,39 @@
       </nav>
     </header>
     <main>
-      <section id="contact-form">
-        <form action="./success.html">
-          <label for="name">Name</label>
-          <input type="text" name="name" />
-          <label for="email">Email</label>
-          <input type="email" name="email" />
-          <label for="message">Message</label>
-          <textarea name="message"></textarea>
-          <input type="submit" value="Send it!" action />
+      <section class="contact-form">
+        <form action="./success.html" id="contact-form">
+          <table>
+            <tr>
+              <td>
+                <label for="name">Name</label>
+              </td>
+              <td>
+                <input type="text" name="name" />
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <label for="email">Email</label>
+              </td>
+              <td>
+                <input type="email" name="email" />
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <label for="message">Message</label>
+              </td>
+              <td>
+                <textarea name="message"></textarea>
+              </td>
+            </tr>
+            <tr>
+              <td rowspan="2">
+                <input type="submit" value="Send it!" id="send-button" />
+              </td>
+            </tr>
+          </table>
         </form>
       </section>
     </main>

@@ -1,19 +1,41 @@
 body {
   background-color: darkcyan;
 }
+a {
+  color: darkgreen;
+}
+
 header {
   background-color: rosybrown;
   width: 95%;
-  display: inline-block;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
   margin: 10px;
-  margin-bottom: 0px;
-  max-width: 500px;
+  padding-bottom: 5px;
+  justify-content: space-between;
+}
+h1 {
+  margin-left: 10px;
 }
 nav {
-  float: right;
+  margin: 10px;
 }
-head:first-child {
-  display: inline-block;
+nav a {
+  border: gray outset;
+  padding: 2px;
+}
+nav a:hover {
+  background-color: rebeccapurple;
+  color: limegreen;
+}
+nav a:focus {
+  border: gray inset;
+  background-color: cyan;
+}
+
+h2 {
+  margin-left: 15px;
 }
 img {
   max-width: 100%;
@@ -26,7 +48,6 @@ img {
   background-color: coral;
   width: 95%;
   margin: 10px;
-  max-width: 500px;
 }
 section.activity {
   width: 95%;
@@ -54,17 +75,19 @@ section.project:hover a {
   color:chocolate
 }
 section.contact-form {
+  width: 95%;
+  margin: 10px;
   background-color: coral;
 }
-h1 {
-  margin-left: 5px;
+table {
+  padding: 10px;
+  margin: auto;
 }
-h2 {
-  margin-left: 15px;
-}
+
 footer {
   margin: 10px;
   padding:5px;
+  text-align: center;
 }
 footer img {
   max-height: 25px;
@@ -73,21 +96,9 @@ footer img:hover {
   max-height: 30px;
 }
 footer:hover {
-  background-color: coral;
+  background-color: rosybrown;
 }
 #social-logo-links {
   display: flex;
   justify-content: center;
-}
-.contact {
-  text-align: center;
-  size: 12px;
-  margin: 0px;
-}
-:hover {
-  color: rebeccapurple;
-  text-decoration: line-through;
-}
-a {
-  color: darkgreen;
 }
