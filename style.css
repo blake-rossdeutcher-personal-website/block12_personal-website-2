@@ -16,8 +16,8 @@ head:first-child {
   display: inline-block;
 }
 img {
-  max-width: 100px;
-  max-height: 100px;
+  max-width: 100%;
+  max-height: 100%;
   float: right;
 }
 #song {
@@ -35,12 +35,23 @@ section.activity {
   background-color: coral;
   max-width: 500px;
 }
+section.activity:hover {
+  background-color: rebeccapurple;
+  color: limegreen;
+}
 section.project {
   width: 95%;
   padding: 0px 10px 5px 10px;
   margin: 10px;
   background-color: coral;
   max-width: 500px;
+}
+section.project:hover {
+  background-color: rebeccapurple;
+  color: limegreen;
+}
+section.project:hover a {
+  color:chocolate
 }
 section.contact-form {
   background-color: coral;
@@ -51,8 +62,18 @@ h1 {
 h2 {
   margin-left: 15px;
 }
+footer {
+  margin: 10px;
+  padding:5px;
+}
 footer img {
   max-height: 25px;
+}
+footer img:hover {
+  max-height: 30px;
+}
+footer:hover {
+  background-color: coral;
 }
 #social-logo-links {
   display: flex;
@@ -66,4 +87,7 @@ footer img {
 :hover {
   color: rebeccapurple;
   text-decoration: line-through;
+}
+a {
+  color: darkgreen;
 }
