@@ -7,16 +7,17 @@ a {
 
 header {
   background-color: rosybrown;
-  width: 95%;
+  width: 96%;
   display: flex;
   flex-direction: row;
   align-items: center;
-  margin: 10px;
+  margin: 2%;
   padding-bottom: 5px;
   justify-content: space-between;
 }
 h1 {
   margin-left: 10px;
+  text-decoration: underline;
 }
 nav {
   margin: 10px;
@@ -35,24 +36,27 @@ nav a:focus {
 }
 
 h2 {
-  margin-left: 15px;
+  margin-left: 2%;
+  padding-left: 10px;
 }
 img {
   max-width: 100%;
   max-height: 100%;
   float: right;
 }
+/* Home Page */
 #song {
   align-self: right;
   text-align: center;
   background-color: coral;
-  width: 95%;
-  margin: 10px;
+  width: 96%;
+  margin: 2%;
 }
+/* About Page */
 section.activity {
-  width: 95%;
+  width: 96%;
   padding: 0px 10px 5px 10px;
-  margin: 10px;
+  margin: 2%;
   background-color: coral;
   max-width: 500px;
 }
@@ -60,33 +64,48 @@ section.activity:hover {
   background-color: rebeccapurple;
   color: limegreen;
 }
+/* Project Page */
+#project-container {
+  width: 96%;
+  /* padding: 0px 10px 5px 10px; */
+  margin: 2%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  background-color: darkred;
+}
 section.project {
-  width: 95%;
+  width: 25%;
   padding: 0px 10px 5px 10px;
-  margin: 10px;
+  margin: 2%;
   background-color: coral;
-  max-width: 500px;
+}
+@media (max-width: 1000px) {
+  section.project {
+    width: 100%;
+  }
 }
 section.project:hover {
   background-color: rebeccapurple;
   color: limegreen;
 }
 section.project:hover a {
-  color:chocolate
+  color: chocolate;
 }
+/* Contact Page */
 section.contact-form {
-  width: 95%;
-  margin: 10px;
+  width: 96%;
+  margin: 2%;
   background-color: coral;
 }
 table {
-  padding: 10px;
+  padding: 7px;
   margin: auto;
 }
 
 footer {
   margin: 10px;
-  padding:5px;
+  padding: 5px;
   text-align: center;
 }
 footer img {
