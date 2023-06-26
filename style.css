@@ -51,14 +51,12 @@ h2 {
 footer img {
   max-height: 25px;
 }
-#reddit-link {
-  float: left;
-  margin-left: 50%;
+#social-logo-links {
+  display: flex;
+  justify-content: center;
 }
-#instagram-link {
-  float: right;
-  margin-right: 50%;
-}
-footer {
+.contact {
   text-align: center;
+  size: 12px;
+  margin: 0px;
 }
