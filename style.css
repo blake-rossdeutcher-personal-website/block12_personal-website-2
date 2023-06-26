@@ -35,12 +35,23 @@ section.activity {
   background-color: coral;
   max-width: 500px;
 }
+section.activity:hover {
+  background-color: rebeccapurple;
+  color: limegreen;
+}
 section.project {
   width: 95%;
   padding: 0px 10px 5px 10px;
   margin: 10px;
   background-color: coral;
   max-width: 500px;
+}
+section.project:hover {
+  background-color: rebeccapurple;
+  color: limegreen;
+}
+section.project:hover a {
+  color:chocolate
 }
 section.contact-form {
   background-color: coral;
@@ -76,4 +87,7 @@ footer:hover {
 :hover {
   color: rebeccapurple;
   text-decoration: line-through;
+}
+a {
+  color: darkgreen;
 }
