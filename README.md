@@ -1,5 +1,4 @@
 # personal-website
-Nav bar at the top of each page to easily move between the pages
 
 ##  index.html (Home)
 This is the landing page with song lyrics repurposed for coding.
@@ -12,3 +11,9 @@ This page is all about my wonderful projects
 
 ##  style.css
 Linked to all 3 .html files
+
+## contact.html
+contact form where the user submits their name, email, and a message
+
+##  success.html
+Page the submit button sends user to
